@@ -2,10 +2,10 @@
 Antes de todo, todo este proceso es posterior a la correcta instalación de nginx.
 
 Nos dirijimos al directorio /etc/nginx.
-![](imagenes/imagen1.png)
+![](Imagenes/imagen1.PNG)
 Aquí nos tendremos que fijar en el directorio sites-available y entrar en él.
 Una vez dentro copiaremos el archivo "default" con el nombre de los dos dominios que queramos tener.
-![](imagenes/imagen2.png)
+![](Imagenes/imagen2.png)
 Una vez creamos los modificamos usando vim.
 Y dentro de cada uno de ellos deberemos cambiar el root para que apunte a la carpeta que deseamos y server_name para que tenga el nombre del dominio que queramos.
 ![](imagenes/imagen3.png)
